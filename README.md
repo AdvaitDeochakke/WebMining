@@ -26,4 +26,4 @@ Lab 11 - Decision Tree Classifier, both the braindead play golf and the unoptimi
 
 Lab 12 - Log Data sessions, not great stuff. Could use work
 
-Apriori - Havent done
+Apriori - ~~Havent done~~ ADDED!
