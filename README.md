@@ -27,3 +27,24 @@ Lab 11 - Decision Tree Classifier, both the braindead play golf and the unoptimi
 Lab 12 - Log Data sessions, not great stuff. Could use work
 
 Apriori - ~~Havent done~~ ADDED!
+
+
+
+
+
+
+
+
+
+
+
+Secret: 
+
+import requests
+import nbformat
+
+response = requests.get("https://raw.githubusercontent.com/AdvaitDeochakke/WebMining/main/lab6.ipynb")
+notebook = nbformat.reads(response.text, nbformat.current_nbformat)
+code_cells = [cell.source for cell in notebook.cells if cell.cell_type == 'code']
+for code in code_cells:
+    print(code)
